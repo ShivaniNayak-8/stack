@@ -36,7 +36,7 @@ public class Stack{
 			return;
 		}
 		else {
-		array[++top]=item;  //pre-incrementing top to push element
+			array[++top]=item;  //pre-incrementing top to push element
 		}
 	}
 	public int pop()
